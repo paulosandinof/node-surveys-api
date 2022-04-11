@@ -1,8 +1,5 @@
 module.exports = {
-  preset: [
-    'ts-jest',
-    '@shelf/jest-mongodb'
-  ],
+  preset: '@shelf/jest-mongodb',
   testEnvironment: 'node',
   roots: ['<rootDir>/src'],
   collectCoverageFrom: [
